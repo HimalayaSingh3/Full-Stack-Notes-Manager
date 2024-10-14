@@ -37,8 +37,8 @@ To set up the Notes Manager application locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/mern-notes-manager.git
-   cd mern-notes-manager
+   git clone https://github.com/HimalayaSingh3/Full-Stack-Notes-Manager.git
+   cd Full-Stack-Notes-Manager
    ```
 
 2. **Install server dependencies**:
