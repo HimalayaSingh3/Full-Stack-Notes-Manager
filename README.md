@@ -17,9 +17,7 @@ This repository contains a Notes Manager application built using the MERN stack 
 
 ## Features
 
-- User authentication (sign up, login, logout)
 - Create, read, update, and delete notes
-- Search and filter notes
 - Responsive design for mobile and desktop
 - User-specific notes management
 
