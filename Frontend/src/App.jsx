@@ -15,18 +15,18 @@ function App() {
     }, []);
 
     const fetchNotes = async () => {
-        const response = await axios.get('http://localhost:5000/api/notes');
+        const response = await axios.get('https://notes-manager-jsce.onrender.com/api/notes');
         setNotes(response.data);
     };
 
     const addNote = async () => {
         const newNote = { title, content };
-        await axios.post('http://localhost:5000/api/notes', newNote);
+        await axios.post('https://notes-manager-jsce.onrender.com/api/notes', newNote);
         fetchNotes(); // Refresh the notes
     };
 
     const deleteNote = async (id) => {
-        await axios.delete(`http://localhost:5000/api/notes/${id}`);
+        await axios.delete(`https://notes-manager-jsce.onrender.com/api/notes/${id}`);
         fetchNotes(); // Refresh the notes
     };
 
