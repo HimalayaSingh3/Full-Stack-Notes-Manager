@@ -57,20 +57,19 @@ To set up the Notes Manager application locally, follow these steps:
    Create a `.env` file in the `server` directory and add your MongoDB connection string:
    ```
    MONGODB_URI=your_mongodb_connection_string
-   JWT_SECRET=your_jwt_secret
    ```
 
-5. **Start the server**:
+5. **Start the Backend**:
    ```bash
-   cd server
-   npm start
+   cd Backend
+   node server.js
    ```
 
-6. **Start the client**:
+6. **Start the Frontend**:
    Open a new terminal window and run:
    ```bash
-   cd client
-   npm start
+   cd Frontend
+   npm run dev
    ```
 
 Your application should now be running on `http://localhost:3000`.
